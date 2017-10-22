@@ -1,17 +1,27 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+`pprint_json.py` contains two functions:
+
+`load_data(filepath)` – loads json data from given path  
+`pretty_print_json(json_content)` – formats given json and prints it to the console
 
 # Quickstart
-
-[TODO]
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
+
+```
+
+Result:
+
+```bash
+
+{
+  "foo": "bar"
+}
 
 ```
 
